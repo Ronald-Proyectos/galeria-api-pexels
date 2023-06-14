@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Galeria | API Pexels</title>
+</head>
+<body>
+
+    <div class="lightbox">
+        <div class="wrapper">
+            <header>
+                <div class="photographer">
+                    <i class="fa-solid fa-camera"></i>
+                    <span></span>
+                </div>
+                <div class="buttons">
+                    <i class="fa-solid fa-download"></i>
+                    <i class="fa-solid fa-x"></i>
+                </div>
+            </header>
+            <div class="preview-img">
+                <figure class="img">
+                    <img src="" alt="preview">
+                </figure>
+            </div>
+        </div>
+    </div>
+    
+    <section class="container-search">
+        <img src="img/search-img.jpg" alt="search-img">
+        <article class="content">
+            <h1>Galeria de Imagenes</h1>
+            <p>Busca y descarga cualquier imagen</p>
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Buscar imagen">
+            </div>
+        </article>
+    </section>
+
+    <section class="gallery">
+        <ul class="images"></ul>
+        <button class="load-more">Cargar Mas</button>
+    </section>
+
+    <button class="scroll-top-btn hidden">&#11014</button>
+
+    <script src="index.js"></script>
+</body>
+</html>
