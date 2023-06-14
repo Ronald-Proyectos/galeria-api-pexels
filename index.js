@@ -8,7 +8,7 @@ const imagesContainer = document.querySelector(".images"),
       btnScroll = document.querySelector(".scroll-top-btn")
 
 
-const API_KEY = "kqy9pBQadx0YN5szOmLAHGsbN4qnR780QRvBKbzMsCxptWJ5JVnjfsPi" //TU API KEY
+const API_KEY = "" //TU API KEY
 const perPage = 15
 let currentPage = 1
 let searchTerm = null
